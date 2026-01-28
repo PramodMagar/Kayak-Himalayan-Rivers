@@ -1,0 +1,37 @@
+.packing-container {
+  padding: 15px;
+  max-width: 100%;
+  background-color: #f4f4f6;
+}
+
+.category-card {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.category-card h3 {
+  color: #0077b3;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.equipment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.equipment-item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  border-left: 4px solid #0077be;
+}

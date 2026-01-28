@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.header{
+    background-color: #0000ff;
+    display: flex;
+    justify-content: space-between;
+     padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 260px;
+    margin: auto;
+    justify-content:space-around;
+   
+}
+
+.rivers{
+    display: flex;
+    width: 80%;
+    /* background-color: #000; */
+    justify-content: start;
+    margin-left: 40px;
+}
+
+.activName{
+    margin: 30px;
+}
+
+
+.map-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7f1ff;
+    color: #007bff;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.details-box {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem; 
+    color: #555;
+    margin: 10px 0;
+}
+
+.activity-row {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333;
+}
+
+
+.difficulty-header {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section-block {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #007bff;
+}

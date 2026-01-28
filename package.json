@@ -1,4 +1,4 @@
-{  
+{
   "homepage": "https://PramodMagar.github.io/Kayak-Himalayan-Rivers.",
   "name": "kayak-info",
   "private": true,
@@ -9,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeloy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

@@ -6,6 +6,11 @@ export default function Rivers(){
     const [slectedDayIndex, setSlectedDayIndex] = useState(0);
 
     const currentDay = itineraryData[slectedDayIndex];
+
+    // const handleTabClick = (e, index) => {
+    //     e.preventDefault();
+    //     setSlectedDayIndex(index);
+    //     }
     
     return(
         <div className="rivers-container">
